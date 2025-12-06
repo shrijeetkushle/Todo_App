@@ -5,7 +5,7 @@ let req=prompt("Enter the Request :");
 while(true){
 
     if(req=="quit"){
-        console.log("qutting App!");
+        console.log("quitting app!");
         break;
     }
 
@@ -28,9 +28,13 @@ while(true){
         let idx=prompt("Enter the idx Number to delete :");
         todo.splice(idx,1);
         console.log("Task deleted!");
+        
     }else{
+        
         console.log("Wrong Request!");
+        
     }
 
     req=prompt("Enter the Request :");
+
 }
